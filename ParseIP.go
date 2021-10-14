@@ -7,8 +7,8 @@ import (
 
 var DB *geoip2.Reader
 
-//  path GeoLite2-City.mmdb 地址
-func initDB(path string) error {
+// InitDB path GeoLite2-City.mmdb 地址
+func InitDB(path string) error {
 	var err error
 	DB, err = geoip2.Open(path)
 	return err

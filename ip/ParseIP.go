@@ -1,4 +1,4 @@
-package goutils
+package ip
 
 import (
 	"github.com/oschwald/geoip2-golang"
